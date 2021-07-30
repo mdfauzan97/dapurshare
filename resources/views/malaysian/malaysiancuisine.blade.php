@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="mt-4 ml-3 flex hover:underline  hover:text-gray-700">
+  <a href="/home" class="text-lg font-semibold">
+  <img src="/image/backbutton.png" alt="backbutton" width="25" height="15"><span>Types of Cuisine</span>
+  </a>
+</div>
 <div class="mt-32 mb-10">
   <div class="text-center">
     <h4 class="text-2xl font-semibold font-mono">
